@@ -6,13 +6,26 @@ Workspace profesional de Sergio Muñoz de Alba Medrano para mantener un currícu
 
 ## **Estructura de Archivos**
 
-text
+```
+NEW_CV_Chief_of_staff/
+  └── cv-sergio-munoz-eng-chief_of_staff.tex → Versión LaTeX (moderncv) Chief of Staff
+  └── cv-sergio-munoz-eng-chief_of_staff.pdf → PDF compilado listo para envío
 
-`*SPA*.md → CV versión español (documento fuente narrativo)`  
-`*ENG*.md → CV versión inglés (traducción sincronizada)`  
-`cv-sergio-munoz-eng.tex → Versión LaTeX (moderncv) para PDF`  
-`copilot-instructions.md → Este archivo de contexto y reglas`  
-`docs_profesionales/ → Documentos oficiales (título, cédula, reconocimientos, etc.)`
+OLD CV/
+  └── cv-sergio-munoz-eng.tex → CV versión anterior (enfoque técnico/sectorial)
+  └── cv-sergio-munoz-spa.tex → CV español versión anterior
+  └── *SPA*.md, *ENG*.md → Versiones narrativas anteriores
+  └── carta-motivacion-seder.* → Carta de motivación SEDER Yucatán
+
+.github/
+  └── copilot-instructions.md → Este archivo de contexto y reglas
+
+docs profesionales sergio/
+  └── Documentos oficiales (título, cédula, reconocimientos, oficios)
+
+para imprimir/
+  └── PDFs listos para impresión
+```
 
 ## **Objetivo Laboral Actual**
 
@@ -115,18 +128,20 @@ Trabajo con secretarías, organismos internacionales, productores y sector priva
 
 Cuando se use Copilot sobre los archivos:
 
-1.  En cv-sergio-munoz-eng.tex:
-    -   Reescribir la sección Professional Summary para que hable de:
-        -   “Operations and Program Management Leader”
-        -   “Chief of Staff–style support to senior leadership”
-        -   “Large-scale teams and budgets”.
-    -   Reescribir Key Administrative Competencies como Core Management Competencies con foco en operaciones, estrategia y organización.
-    -   Ajustar cada cventry para:
-        -   Comenzar con una frase que explique el rol en términos de dirección/operaciones.
-        -   Modificar viñetas para que destaquen gestión, coordinación, procesos, sistemas y resultados medibles.
-2.  En los archivos *SPA*.md y *ENG*.md:
-    -   Mantener versiones narrativas del CV que luego se vuelcan a LaTeX.
-    -   Usar exactamente el mismo enfoque de posicionamiento (operations / Chief of Staff).
+1.  En NEW_CV_Chief_of_staff/cv-sergio-munoz-eng-chief_of_staff.tex:
+    -   **Mantener** la sección Professional Summary que ya establece:
+        -   "Operations and Program Management Leader"
+        -   "Chief of Staff–style partner to senior leadership"
+        -   "Large-scale teams and budgets" (30+ años, 320+ staff, 250+ millones MXN)
+    -   **Mantener** Core Management Competencies (7 competencias) con foco en operaciones, estrategia y organización.
+    -   **Mantener** cada cventry con:
+        -   Frase inicial que explique el rol en términos de dirección/operaciones
+        -   Viñetas que destaquen gestión, coordinación, procesos, sistemas y resultados medibles
+    -   Cualquier actualización debe conservar el enfoque Chief of Staff / Operations Leadership.
+2.  Para versiones en español (futuras):
+    -   Crear NEW_CV_Chief_of_staff/cv-sergio-munoz-spa-chief_of_staff.tex
+    -   Usar exactamente el mismo enfoque de posicionamiento (operaciones / Chief of Staff).
+    -   Mantener estructura paralela a la versión en inglés.
 3.  Para LinkedIn (archivo nuevo opcional: linkedin-profile.md):
     -   Generar:
         -   Un headline orientado a “Director of Operations / Program Management / Chief of Staff”.
@@ -135,7 +150,7 @@ Cuando se use Copilot sobre los archivos:
 
 ## **Formato de Salida**
 
--   CV oficial: cv-sergio-munoz-eng.tex compilado a PDF desde VS Code (latexmk / pdflatex).
+-   CV oficial: NEW_CV_Chief_of_staff/cv-sergio-munoz-eng-chief_of_staff.tex compilado a PDF desde VS Code (latexmk / pdflatex).
 -   Texto base LinkedIn: linkedin-profile.md para copiar/pegar en la plataforma.
 -   Cartas de motivación: documentos Markdown específicos por vacante, pero siempre coherentes con la narrativa de liderazgo de operaciones.
 
