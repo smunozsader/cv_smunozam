@@ -8,9 +8,10 @@ Bilingual (Spanish/English) CV workspace for Sergio Muñoz de Alba Medrano posit
 
 ## File Architecture
 
-- **NEW_CV_Chief_of_staff/** → Active CV files (LaTeX moderncv format)
-  - `cv-sergio-munoz-eng-chief_of_staff.tex` → Primary English CV (Chief of Staff positioning)
-  - `cv-sergio-munoz-spa-dir_de_op_y_progr.tex` → Spanish version (parallel structure)
+- **segunda ronda/** → Current production CVs (3 pages, optimized)
+  - `cv_SMAM_Director_Operations_Programs_ENG.tex/.pdf` → English CV (Operations & Programs Director)
+  - `cv_SMAM_Director_de_Operaciones_y_Programas_SPA.tex/.pdf` → Spanish version (parallel structure)
+- **NEW_CV_Chief_of_staff/** → Previous iterations; reference archived versions
 - **OLD CV/** → Archive; reference only
 - **docs profesionales sergio/** → Supporting documents (credentials, official documents)
 - **para imprimir/** → Print-ready PDFs
@@ -66,18 +67,18 @@ Systematically highlight:
 
 ## Copilot-Specific Instructions
 
-### English CV (cv-sergio-munoz-eng-chief_of_staff.tex)
-- **Preserve:** Professional Summary messaging, 7 Core Competencies, Chief of Staff framing
+### English CV (segunda ronda/cv_SMAM_Director_Operations_Programs_ENG.tex)
+- **Preserve:** Professional Summary messaging, 7 Core Competencies, Operations & Programs positioning
 - **Update entries:** Ensure each position explains role in operations/management terms, includes quantified metrics (people, budget, scope, systems)
 - **Maintain consistency:** Any structural change applies to Spanish version in parallel
 
-### Spanish CV (cv-sergio-munoz-spa-dir_de_op_y_progr.tex)
+### Spanish CV (segunda ronda/cv_SMAM_Director_de_Operaciones_y_Programas_SPA.tex)
 - Same positioning logic as English version
 - Parallel structure and content depth
 - Localized terminology (ops/management, not just sector-specific language)
 
 ### LinkedIn Profile (future: linkedin-profile.md)
-- Headline: "Director of Operations | Program Management | Chief of Staff"
+- Headline: "Director of Operations & Programs | Program Management | Chief of Staff"
 - About: 30+ years leading operations, budgets, multisector coordination
 - Job descriptions: Brief, results-focused, emphasize scale and execution
 
