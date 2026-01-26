@@ -1,160 +1,96 @@
-## **Copilot Instructions – CV de Sergio Muñoz**
+# AI Agent Instructions – Sergio Muñoz CV Workspace
 
-## **Descripción del Proyecto**
+## Project Overview
 
-Workspace profesional de Sergio Muñoz de Alba Medrano para mantener un currículum vitae bilingüe (español/inglés) y textos asociados (LinkedIn, cartas de motivación) orientados a posiciones de dirección de operaciones, gestión de programas y Chief of Staff / Desarrollo Organizacional en sectores público, social y privado con misión.
+Bilingual (Spanish/English) CV workspace for Sergio Muñoz de Alba Medrano positioning him as **Operations & Program Management Leader / Chief of Staff** across public, nonprofit, and mission-driven private sectors in Yucatán Peninsula.
 
-## **Estructura de Archivos**
+**Key Positioning:** Primary narrative is operations leadership and executive coordination; conservation and rural development are domain examples, not limiting factors.
 
-```
-NEW_CV_Chief_of_staff/
-  └── cv-sergio-munoz-eng-chief_of_staff.tex → Versión LaTeX (moderncv) Chief of Staff
-  └── cv-sergio-munoz-eng-chief_of_staff.pdf → PDF compilado listo para envío
+## File Architecture
 
-OLD CV/
-  └── cv-sergio-munoz-eng.tex → CV versión anterior (enfoque técnico/sectorial)
-  └── cv-sergio-munoz-spa.tex → CV español versión anterior
-  └── *SPA*.md, *ENG*.md → Versiones narrativas anteriores
-  └── carta-motivacion-seder.* → Carta de motivación SEDER Yucatán
+- **NEW_CV_Chief_of_staff/** → Active CV files (LaTeX moderncv format)
+  - `cv-sergio-munoz-eng-chief_of_staff.tex` → Primary English CV (Chief of Staff positioning)
+  - `cv-sergio-munoz-spa-dir_de_op_y_progr.tex` → Spanish version (parallel structure)
+- **OLD CV/** → Archive; reference only
+- **docs profesionales sergio/** → Supporting documents (credentials, official documents)
+- **para imprimir/** → Print-ready PDFs
 
-.github/
-  └── copilot-instructions.md → Este archivo de contexto y reglas
+## Core Content Rules
 
-docs profesionales sergio/
-  └── Documentos oficiales (título, cédula, reconocimientos, oficios)
+### Tone & Voice
+- **English:** Business/managerial (operations, execution, leadership). Standard management terminology.
+- **Spanish:** Neutral, professional, appropriate for public/nonprofit/private sectors.
+- **Framing:** Position agriculture/conservation as _domain examples_, not identity limits.
 
-para imprimir/
-  └── PDFs listos para impresión
-```
+### Narrative Framework
+Always present Sergio as:
+1. **Operations & Program Management Leader** (primary)
+2. **Chief of Staff / Executive Partner** to senior leadership
+3. **Organizational Development & Execution Expert**
 
-## **Objetivo Laboral Actual**
+Systematically highlight:
+- Team size: **320+ staff, 22 regional offices** (SAGARPA context)
+- Budget scale: **250+ million MXN annually, 45,000+ beneficiaries**
+- Interinstitutional coordination roles
+- Process/system implementation (SOPs, ISO 9000, digital platforms)
 
-Posicionar a Sergio Muñoz de Alba Medrano como:
+### Bilingual Synchronization
+- Each meaningful change in Spanish → reflected in English
+- Maintain parallel structure and similar level of detail
+- Key translation pairs:
+  - "Subdelegado de Planeación" → "Deputy Director for Planning and Rural Development (Operations Lead)"
+  - "Encargado del Despacho" → "Acting Regional Director / Chief of Staff"
 
--   Director de Operaciones / Programas
--   Chief of Staff / Coordinador de Despacho
--   Director de Desarrollo Organizacional / Administración
+## LaTeX CV Format (moderncv)
 
-en organizaciones públicas, no gubernamentales o privadas con enfoque en impacto (desarrollo regional, servicios, educación, sostenibilidad, etc.), preferentemente con base en Mérida o Península de Yucatán.
+**Style:** banking mode, blue color  
+**Structure:**
+1. Professional Summary (30+ years, operations focus, scale of teams/budgets, Chief of Staff role)
+2. Core Management Competencies (7 key areas: operations leadership, program management, chief of staff, organizational development, processes, data systems, stakeholder relations)
+3. Professional Experience (reverse chronological, each entry: 1–2 context lines + 3–5 quantified achievements)
+4. Education, Languages, Technical Skills
 
-La experiencia en agricultura, sanidad animal y conservación se usará como dominio de especialidad, pero el mensaje principal es: líder de operaciones y gestión que puede trabajar en distintos sectores.
+**Compilation:** `pdflatex cv-sergio-munoz-eng-chief_of_staff.tex` or `latexmk`
 
-## **Reglas de Edición**
+## Key Competencies (Reference)
 
-## **Tono y Estilo**
+| Competency | Evidence |
+|---|---|
+| Operations Leadership | 320+ staff, 22 offices (SAGARPA) |
+| Program Management | 250+ MDP annually, 45,000+ beneficiaries |
+| Chief of Staff / Executive Liaison | Deputy Director role, state/federal coordination |
+| Organizational Development | Municipal councils, CoPs, cross-institutional teams |
+| Processes & Quality | SOPs, ISO 9000, workflow standardization |
+| Data & Systems | GOB.mx v3 platforms, traceability, compliance tracking |
+| Stakeholder Relations | Secretariats, international orgs, producers, private sector |
 
--   Tono profesional, claro y directo, no excesivamente burocrático.
--   En español: lenguaje neutro, apto para sector público, ONG y empresa.
--   En inglés: business / managerial tone (operations, leadership, execution).
--   Evitar encasillar el perfil sólo en “sector agropecuario” o “conservación”; siempre enmarcarlo como gestión de operaciones y programas.
+## Copilot-Specific Instructions
 
-## **Enfoque de Contenido**
+### English CV (cv-sergio-munoz-eng-chief_of_staff.tex)
+- **Preserve:** Professional Summary messaging, 7 Core Competencies, Chief of Staff framing
+- **Update entries:** Ensure each position explains role in operations/management terms, includes quantified metrics (people, budget, scope, systems)
+- **Maintain consistency:** Any structural change applies to Spanish version in parallel
 
-Al reescribir o generar secciones del CV o LinkedIn, Copilot debe:
+### Spanish CV (cv-sergio-munoz-spa-dir_de_op_y_progr.tex)
+- Same positioning logic as English version
+- Parallel structure and content depth
+- Localized terminology (ops/management, not just sector-specific language)
 
-1.  Presentar a Sergio principalmente como:
-    -   Líder de operaciones y programas.
-    -   Perfil tipo Chief of Staff / mano derecha de dirección.
-    -   Experto en ejecución, coordinación y estructura organizacional.
-2.  Usar la conservación y el desarrollo rural como ejemplos de contextos, no como única identidad profesional.
-3.  Destacar sistemáticamente:
-    -   Tamaño de equipos dirigidos (hasta 320+ personas, 22 oficinas).
-    -   Tamaño de presupuestos manejados (250+ MDP, 120 MDP/año, 45,000+ beneficiarios).
-    -   Roles de coordinación interinstitucional y de enlace con alta dirección.
-    -   Diseño e implementación de procesos, SOPs, sistemas de seguimiento y plataformas digitales.
-4.  Adaptar la narrativa de cada puesto para que suene a:
-    -   Dirección / coordinación de operaciones.
-    -   Planificación y ejecución de programas.
-    -   Gestión de información, indicadores, reportes y cumplimiento.
+### LinkedIn Profile (future: linkedin-profile.md)
+- Headline: "Director of Operations | Program Management | Chief of Staff"
+- About: 30+ years leading operations, budgets, multisector coordination
+- Job descriptions: Brief, results-focused, emphasize scale and execution
 
-## **Sincronización Bilingüe**
+## Workflow
 
--   Cada cambio relevante en español debe reflejarse en la versión en inglés (*SPA* ↔ *ENG*).
--   Mantener estructura lo más paralela posible entre ambos idiomas.
--   Traducciones orientadas a management:
-    -   “Subdelegado de Planeación y Desarrollo Rural” → “Deputy Director for Planning and Rural Development (Operations Lead)”.
-    -   “Encargado del Despacho” → “Acting Head / Acting Regional Director”.
+1. **Edit CV content** in `.tex` files (use moderncv syntax)
+2. **Compile to PDF** via `pdflatex` or `latexmk`
+3. **Keep EN ↔ SPA in sync** – major edits in one language should flow to the other
+4. **Archive old versions** in OLD CV/ folder
+5. **Export final PDF** to para imprimir/ for distribution
 
-## **Formato del CV (LaTeX)**
+## Interaction Language
 
--   Seguir usando clase moderncv (estilo banking, color azul).
--   Orden cronológico inverso.
--   Cada experiencia profesional debe incluir:
-    -   1–2 frases de contexto (rol en términos de operaciones/gestión).
-    -   3–5 viñetas con logros cuantificados (personas, presupuesto, alcance, sistemas implementados).
--   Incluir secciones:
-    -   Professional Summary / Resumen Profesional centrado en operaciones.
-    -   Core Management Competencies / Competencias Clave de Gestión.
-    -   Professional Experience / Experiencia Profesional.
-    -   Education, Languages, Technical Skills.
-
-## **Competencias Clave a Destacar**
-
-Actualizar la tabla mental de competencias hacia management general:
-
-Competencia
-
-Evidencia Cuantificable / Descriptiva
-
-Liderazgo de operaciones
-
-Dirección de 320+ personas y 22 oficinas (SAGARPA).
-
-Gestión de programas
-
-Manejo de 250+ MDP anuales, 45,000+ beneficiarios.
-
-Chief of Staff / Enlace
-
-Encargado del despacho de Delegación, coordinación con gobierno estatal y federación.
-
-Desarrollo organizacional
-
-Creación de consejos municipales, comunidades de práctica, equipos interinstitucionales.
-
-Procesos y calidad
-
-Implementación de SOPs, participación en ISO 9000, estandarización de flujos.
-
-Datos y sistemas
-
-Plataformas GOB.mx v3, sistemas de trazabilidad y de seguimiento de acuerdos.
-
-Relación con stakeholders
-
-Trabajo con secretarías, organismos internacionales, productores y sector privado.
-
-## **Instrucciones Específicas para Copilot en VS Code**
-
-Cuando se use Copilot sobre los archivos:
-
-1.  En NEW_CV_Chief_of_staff/cv-sergio-munoz-eng-chief_of_staff.tex:
-    -   **Mantener** la sección Professional Summary que ya establece:
-        -   "Operations and Program Management Leader"
-        -   "Chief of Staff–style partner to senior leadership"
-        -   "Large-scale teams and budgets" (30+ años, 320+ staff, 250+ millones MXN)
-    -   **Mantener** Core Management Competencies (7 competencias) con foco en operaciones, estrategia y organización.
-    -   **Mantener** cada cventry con:
-        -   Frase inicial que explique el rol en términos de dirección/operaciones
-        -   Viñetas que destaquen gestión, coordinación, procesos, sistemas y resultados medibles
-    -   Cualquier actualización debe conservar el enfoque Chief of Staff / Operations Leadership.
-2.  Para versiones en español (futuras):
-    -   Crear NEW_CV_Chief_of_staff/cv-sergio-munoz-spa-chief_of_staff.tex
-    -   Usar exactamente el mismo enfoque de posicionamiento (operaciones / Chief of Staff).
-    -   Mantener estructura paralela a la versión en inglés.
-3.  Para LinkedIn (archivo nuevo opcional: linkedin-profile.md):
-    -   Generar:
-        -   Un headline orientado a “Director of Operations / Program Management / Chief of Staff”.
-        -   Un About que resuma 30+ años de experiencia en liderazgo de operaciones, presupuestos y coordinación de actores.
-        -   Descripciones de puestos en formato breve, con foco en resultados y escala.
-
-## **Formato de Salida**
-
--   CV oficial: NEW_CV_Chief_of_staff/cv-sergio-munoz-eng-chief_of_staff.tex compilado a PDF desde VS Code (latexmk / pdflatex).
--   Texto base LinkedIn: linkedin-profile.md para copiar/pegar en la plataforma.
--   Cartas de motivación: documentos Markdown específicos por vacante, pero siempre coherentes con la narrativa de liderazgo de operaciones.
-
-## **Idioma de Interacción**
-
--   Con Copilot y en archivos internos se puede trabajar en español, salvo secciones explícitamente marcadas como inglés.
--   El contenido final del CV en inglés debe usar terminología estándar de management (Operations Director, Program Director, Chief of Staff, etc.).
+- Internal work and Copilot dialogue: Spanish acceptable
+- Final CV output (English): Standard management English
+- Documentation: Bilingual or English preferred
