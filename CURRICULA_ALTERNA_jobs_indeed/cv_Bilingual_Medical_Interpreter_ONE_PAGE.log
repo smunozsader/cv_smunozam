@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.26)  29 JAN 2026 11:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.26)  29 JAN 2026 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1010,12 +1010,12 @@ L3 programming layer <2025-10-09>
  ***********
 Package rerunfilecheck Info: File `cv_Bilingual_Medical_Interpreter_ONE_PAGE.ou
 t' has not changed.
-(rerunfilecheck)             Checksum: 2B09CC14EC37B8E3283AEDBB3890DA69;908.
+(rerunfilecheck)             Checksum: B07BA5B3457DEE8F5E55AB7514837272;786.
  ) 
 Here is how much of TeX's memory you used:
  26508 strings out of 469219
- 511699 string characters out of 5462250
- 918585 words of memory out of 5000000
+ 511697 string characters out of 5462250
+ 917585 words of memory out of 5000000
  54478 multiletter control sequences out of 15000+600000
  673232 words of font info for 102 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -1029,7 +1029,7 @@ ts/type1/public/lm/lmss17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/ty
 pe1/public/lm/lmss9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/pu
 blic/lm/lmssbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/publi
 c/lm/lmsso10.pfb>
-Output written on cv_Bilingual_Medical_Interpreter_ONE_PAGE.pdf (1 page, 202966
+Output written on cv_Bilingual_Medical_Interpreter_ONE_PAGE.pdf (1 page, 203223
  bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
